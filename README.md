@@ -1,24 +1,24 @@
 # Mercury-Pose-Estimation 🏃
 
-A REST server which processes image requests with PoseNet and it replies with keypoints detected. 
+A REST server which processes image requests with PoseNet and it replies with keypoints detected.
 
 ### 🔧 Installation
 
 TODO: How to use this package?
 
-### ⚙️ Running Tests 
+### ⚙️ Running Tests
 
 TODO: How to run tests for this package?
 
-### 📦 Deploying 
+### 📦 Deploying
 
 TODO: How to deploy the app?
 
-### ✒️ Authors 
+### ✒️ Authors
 
 TODO: List authors of the package, brief description
 
-### 📄 License 
+### 📄 License
 
 TODO: Link to the License in the repo
 
