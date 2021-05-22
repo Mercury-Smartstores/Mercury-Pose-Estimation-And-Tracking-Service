@@ -1,7 +1,9 @@
-# Mercury Pose Estimation Service 🏃
+# Mercury Pose Estimation & Tracking Service🏃
 
 A REST server which processes image requests with [PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet),
- and it replies with keypoints detected.
+ and it replies with keypoints detected. You can also use the server to open a video streaming channel
+ to provide tracking online estimations using [YOLO](https://arxiv.org/abs/1506.02640) along with the
+ [DeepSORT](https://arxiv.org/abs/1703.07402) algorithm. 
 
 ### 🔧 Installation
 
@@ -22,7 +24,7 @@ We use the [**Express**](https://expressjs.com/) framework for the development o
 REST server in Node.js. To start the services you can run:
 
 ``
-node bin/www
+npm start
 ``
 
 The server will start listening for requests and all services will be ready.
